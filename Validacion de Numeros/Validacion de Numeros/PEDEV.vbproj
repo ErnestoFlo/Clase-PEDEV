@@ -91,6 +91,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Operaciones Basicas.Designer.vb">
+      <DependentUpon>Operaciones Basicas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Operaciones Basicas.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Validacion de Numeros.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -115,6 +122,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Operaciones Basicas.resx">
+      <DependentUpon>Operaciones Basicas.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Validacion de Numeros.resx">
       <DependentUpon>Validacion de Numeros.vb</DependentUpon>
     </EmbeddedResource>
