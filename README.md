@@ -1,2 +1,3 @@
 # Clase-PEDEV
-tareas de la clase
+Todo acerca de los ejercicios realizados en clase de Programacion de desarrollo en entornos visuales
+
