@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Validacion_de_Numeros.Operaciones_Basicas
+            Me.MainForm = Global.Validacion_de_Numeros.ComboBox
         End Sub
     End Class
 End Namespace
