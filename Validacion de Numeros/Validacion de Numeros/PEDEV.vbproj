@@ -91,10 +91,22 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcumuladorContador.Designer.vb">
+      <DependentUpon>AcumuladorContador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AcumuladorContador.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ComboBox.Designer.vb">
       <DependentUpon>ComboBox.vb</DependentUpon>
     </Compile>
     <Compile Include="ComboBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menus.Designer.vb">
+      <DependentUpon>Menus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menus.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\ComboBox.Designer.vb">
@@ -134,8 +146,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AcumuladorContador.resx">
+      <DependentUpon>AcumuladorContador.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ComboBox.resx">
       <DependentUpon>ComboBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus.resx">
+      <DependentUpon>Menus.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\ComboBox.resx">
       <DependentUpon>ComboBox.vb</DependentUpon>
