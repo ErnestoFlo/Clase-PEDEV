@@ -1,6 +1,6 @@
 ﻿Public Class EntregaMascarillas
 
-    Private Sub evaluacionMunicipios(municipios As Integer, itemDepartamento As String, cantEntrega As )
+    Private Sub evaluacionMunicipios(municipios As Integer, itemDepartamento As String, cantEntrega As Integer)
         For i = 1 To municipios Step 1
             While (itemDepartamento > 0)
                 cantEntrega = InputBox("Ingrese la cantidad de entrega", "Entrega de mascarillas")
