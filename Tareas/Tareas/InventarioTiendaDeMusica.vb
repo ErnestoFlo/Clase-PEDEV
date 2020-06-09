@@ -167,4 +167,8 @@
     Private Sub PrimerosPasosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PrimerosPasosToolStripMenuItem.Click
         PrimerosPasos.Show()
     End Sub
+
+    Private Sub cmbGuitarra_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbGuitarra.SelectedIndexChanged
+
+    End Sub
 End Class

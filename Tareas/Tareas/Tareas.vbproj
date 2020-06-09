@@ -79,10 +79,46 @@
     <Compile Include="Afinador.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="AlmacenesEmpresa.Designer.vb">
+      <DependentUpon>AlmacenesEmpresa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AlmacenesEmpresa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculadora.Designer.vb">
+      <DependentUpon>Calculadora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calculadora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClasificacionDeNumeros.Designer.vb">
+      <DependentUpon>ClasificacionDeNumeros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClasificacionDeNumeros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formulaCuadratica.Designer.vb">
+      <DependentUpon>formulaCuadratica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formulaCuadratica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImpuestoSAR.Designer.vb">
+      <DependentUpon>ImpuestoSAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ImpuestoSAR.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InventarioTiendaDeMusica.Designer.vb">
       <DependentUpon>InventarioTiendaDeMusica.vb</DependentUpon>
     </Compile>
     <Compile Include="InventarioTiendaDeMusica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuGuia.Designer.vb">
+      <DependentUpon>MenuGuia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuGuia.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -112,8 +148,26 @@
     <EmbeddedResource Include="Afinador.resx">
       <DependentUpon>Afinador.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AlmacenesEmpresa.resx">
+      <DependentUpon>AlmacenesEmpresa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculadora.resx">
+      <DependentUpon>Calculadora.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClasificacionDeNumeros.resx">
+      <DependentUpon>ClasificacionDeNumeros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formulaCuadratica.resx">
+      <DependentUpon>formulaCuadratica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImpuestoSAR.resx">
+      <DependentUpon>ImpuestoSAR.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InventarioTiendaDeMusica.resx">
       <DependentUpon>InventarioTiendaDeMusica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuGuia.resx">
+      <DependentUpon>MenuGuia.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

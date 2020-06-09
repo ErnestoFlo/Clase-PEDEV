@@ -30,10 +30,10 @@ Partial Class InventarioTiendaDeMusica
         Me.chkPiano = New System.Windows.Forms.CheckBox()
         Me.chkGuitarra = New System.Windows.Forms.CheckBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.cmbAccesorioGuitarra = New System.Windows.Forms.ComboBox()
-        Me.cmbAccesorioPiano = New System.Windows.Forms.ComboBox()
         Me.cmbAccesorioBajo = New System.Windows.Forms.ComboBox()
+        Me.cmbAccesorioPiano = New System.Windows.Forms.ComboBox()
+        Me.cmbAccesorioGuitarra = New System.Windows.Forms.ComboBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.btnCalcular = New System.Windows.Forms.Button()
         Me.btnNuevo = New System.Windows.Forms.Button()
         Me.btnSalir = New System.Windows.Forms.Button()
@@ -130,23 +130,14 @@ Partial Class InventarioTiendaDeMusica
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Accesorios"
         '
-        'Label1
+        'cmbAccesorioBajo
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(118, 35)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(128, 13)
-        Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Tienda de Musica Chopin"
-        '
-        'cmbAccesorioGuitarra
-        '
-        Me.cmbAccesorioGuitarra.FormattingEnabled = True
-        Me.cmbAccesorioGuitarra.Location = New System.Drawing.Point(62, 19)
-        Me.cmbAccesorioGuitarra.Name = "cmbAccesorioGuitarra"
-        Me.cmbAccesorioGuitarra.Size = New System.Drawing.Size(121, 21)
-        Me.cmbAccesorioGuitarra.TabIndex = 3
-        Me.cmbAccesorioGuitarra.Text = "Guitarra"
+        Me.cmbAccesorioBajo.FormattingEnabled = True
+        Me.cmbAccesorioBajo.Location = New System.Drawing.Point(62, 73)
+        Me.cmbAccesorioBajo.Name = "cmbAccesorioBajo"
+        Me.cmbAccesorioBajo.Size = New System.Drawing.Size(121, 21)
+        Me.cmbAccesorioBajo.TabIndex = 5
+        Me.cmbAccesorioBajo.Text = "Bajo"
         '
         'cmbAccesorioPiano
         '
@@ -157,14 +148,23 @@ Partial Class InventarioTiendaDeMusica
         Me.cmbAccesorioPiano.TabIndex = 4
         Me.cmbAccesorioPiano.Text = "Piano"
         '
-        'cmbAccesorioBajo
+        'cmbAccesorioGuitarra
         '
-        Me.cmbAccesorioBajo.FormattingEnabled = True
-        Me.cmbAccesorioBajo.Location = New System.Drawing.Point(62, 73)
-        Me.cmbAccesorioBajo.Name = "cmbAccesorioBajo"
-        Me.cmbAccesorioBajo.Size = New System.Drawing.Size(121, 21)
-        Me.cmbAccesorioBajo.TabIndex = 5
-        Me.cmbAccesorioBajo.Text = "Bajo"
+        Me.cmbAccesorioGuitarra.FormattingEnabled = True
+        Me.cmbAccesorioGuitarra.Location = New System.Drawing.Point(62, 19)
+        Me.cmbAccesorioGuitarra.Name = "cmbAccesorioGuitarra"
+        Me.cmbAccesorioGuitarra.Size = New System.Drawing.Size(121, 21)
+        Me.cmbAccesorioGuitarra.TabIndex = 3
+        Me.cmbAccesorioGuitarra.Text = "Guitarra"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(118, 35)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(128, 13)
+        Me.Label1.TabIndex = 2
+        Me.Label1.Text = "Tienda de Musica Chopin"
         '
         'btnCalcular
         '
@@ -212,13 +212,13 @@ Partial Class InventarioTiendaDeMusica
         'AfinadorToolStripMenuItem
         '
         Me.AfinadorToolStripMenuItem.Name = "AfinadorToolStripMenuItem"
-        Me.AfinadorToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AfinadorToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
         Me.AfinadorToolStripMenuItem.Text = "Afinador"
         '
         'PrimerosPasosToolStripMenuItem
         '
         Me.PrimerosPasosToolStripMenuItem.Name = "PrimerosPasosToolStripMenuItem"
-        Me.PrimerosPasosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PrimerosPasosToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
         Me.PrimerosPasosToolStripMenuItem.Text = "Primeros Pasos"
         '
         'InventarioTiendaDeMusica
